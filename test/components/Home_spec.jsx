@@ -15,7 +15,7 @@ describe('Home', function() {
 
   it('renders home div', function() {
     const divs = scryRenderedDOMComponentsWithTag(this.component, 'div');
-    expect(divs[0].className).to.equal('home');
+    expect(divs[0].className).to.equal('home absolute flex-center');
   });
 
   it('renders intro div', function() {

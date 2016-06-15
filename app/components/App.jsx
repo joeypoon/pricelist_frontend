@@ -11,17 +11,18 @@ export default class App extends React.Component {
             </span>
             <div className="mdl-layout-spacer"></div>
             <nav className="mdl-navigation">
-              <a className="mdl-navigation__link" href="/#/signup">Account</a>
+              <a className="mdl-navigation__link" href="/#/login">Account</a>
             </nav>
           </div>
         </header>
         <div className="mdl-layout__drawer">
           <span className="mdl-layout-title">Pricelist</span>
           <nav className="mdl-navigation">
-            <a className="mdl-navigation__link" href="/#/signup">Account</a>
+            <a className="mdl-navigation__link" href="/">Home</a>
+            <a className="mdl-navigation__link" href="/#/login">Account</a>
           </nav>
         </div>
-        <main className="mdl-layout__content container">
+        <main className="mdl-layout__content">
           {this.props.children}
         </main>
       </div>

@@ -6,12 +6,6 @@ html, body {
   height: 100%;
 }
 
-.container {
-  width: 70%;
-  margin: auto;
-  padding-top: 15%;
-}
-
 a {
   text-decoration: none;
   color: rgba(236, 240, 241, 0.8);
@@ -21,15 +15,40 @@ a {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg-main.png') center / cover;
 }
 
-.home .intro {
-  text-align: center;
+.absolute {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
 
-  h1 {
-    margin-bottom: 0;
-  }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+}
 
-  i {
-    font-size: 3em;
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.home {
+
+  .intro {
+    text-align: center;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    i {
+      font-size: 3em;
+    }
   }
 }
 
@@ -38,7 +57,4 @@ div.mdl-layout__drawer-button {
 }
 
 @media screen and (max-width:1024px) {
-  .container {
-    margin-top: 50%;
-  }
 }

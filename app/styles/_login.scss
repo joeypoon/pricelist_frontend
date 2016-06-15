@@ -1,0 +1,12 @@
+.login {
+  text-align: center;
+
+  input#login-email.mdl-textfield__input {
+    border-bottom: 1px solid rgba(236, 240, 241, 0.8);
+    outline: none;
+  }
+
+  button.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--accent {
+    margin-left: 10px;
+  }
+}
